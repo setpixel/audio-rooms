@@ -1,0 +1,30 @@
+{
+  "name": "recording",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "mon": "nodemon src/app.js",
+    "watch": "watchify public/index.js -o public/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-spawn": "^4.0.2",
+    "aws-sdk": "^2.950.0",
+    "express": "^4.17.1",
+    "httpolyglot": "^0.1.2",
+    "mediasoup": "^3.6.16",
+    "mediasoup-client": "^3.6.12",
+    "pg": "^8.3.2",
+    "pg-hstore": "^2.3.3",
+    "protoo-client": "^4.0.4",
+    "protoo-server": "^4.0.4",
+    "sequelize": "^6.3.4",
+    "shelljs": "^0.8.3",
+    "socket.io": "^2.3.0",
+    "tree-kill": "^1.2.2"
+  }
+}
